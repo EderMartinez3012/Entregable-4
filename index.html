@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio Web</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="sobre-mi">
+        <h1>Mi Primer Sitio Web</h1>
+        <h2>Bienvenido a mi pagina</h2>      
+    </header>
+
+    <section id="biografia">
+        <h3>Sobre mí</h3>
+        <p>Mi nombre es Eder, como estudiante y pronto ingeniero de sistemas mi meta es estar al día y a la vanguardia de las tecnologias
+            muy presentes hoy día
+            cada momento, cada clase aprender bien de las ramas de la profesión.
+        </p>
+
+        <img src="Foto1.jpg" alt="Foto Perfil">
+
+        <p>Mis redes</p>
+        <a href="https://www.facebook.com/eder.martinez.592777">Facebook</a> <br>
+        <a href="https://www.instagram.com/edermartinez3012/">Instagram</a>
+        <a href="https://github.com/EderMartinez3012">GitHub</a>
+    </section>
+
+    <section class="pasatiempos">
+        <h1>Pasatiempos</h1>
+        <ul>
+            <li>Leer</li>
+            <li>Hacer ejercicio</li>
+            <li>Running</li>
+            <li>Pasear en busetas</li>
+            <li>Meditaciòn</li>
+            <li>Futbol</li>
+            <li>Hacer pulseras</li>
+        </ul>
+    </section>
+
+    <section class="tareas">
+        <h1>Tareas Pendientes</h1>
+        <ol>
+            <li>Tareas universidad</li>
+            <li>Entregable Talento Tech</li>
+            <li>Realizar exposicion</li>
+            <li>Barrer la casa</li>
+            <li>Lavar platos</li>
+            <li>Lavar ropa</li>
+            <li>Vender pulseras</li>
+        </ol>
+    </section>
+
+
+    <section class="horario">
+        <h1>Horario</h1>
+        <table border="2" cellpadding="10">
+            <tr>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sabado</th>
+                <th>Domingo</th>
+            </tr>
+
+            <tr>
+                <td>Vender pulseras <br> <br>
+                    Lavar ropa
+                </td>
+                <td>Tareas universidad</td>
+                <td>Entregable Talento Tech <br> <br>
+                    Lavar ropa
+                </td>
+                <td>Barrer la casa <br> <br>
+                    Realizar exposicion
+                </td>
+                <td>Lavar platos <br> <br>
+                    Lavar ropa
+                </td>
+                <td>Barrer la casa</td>
+                <td>Lavar ropa</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="formulario-contacto">
+        <h1>Formulario de contacto</h1>
+        <form id="formContacto">
+            <label>Nombre</label>
+            <input id="nombre" type="text" placeholder="Nombre" required>
+
+            <label>Motivo de contacto</label>
+            <textarea id="motivo" name="descripcion" placeholder="Motivo contacto" required></textarea>
+
+            <label>Correo</label>
+            <input id="correo" type="email" placeholder="Correo" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensaje"></p>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
